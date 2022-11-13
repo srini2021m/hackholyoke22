@@ -1,0 +1,672 @@
+#workskin .newspaper {
+    width: 80%;
+    margin: 0 auto 30px;
+    background: #ffffff;
+    background-size: 100% 25px;
+    display: table;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333333;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+  }
+  
+  #workskin .newspaper .newspapertitle {
+    width: 100%;
+    padding: 0;
+    font-size: 80px;
+    font-family: Edwardian Script ITC, Edwardian Scr ITC TT, ITC EDWARDIAN SCRIPT, Adine Kirnberg Script, Ballet, Medusa, Kunstler Script, Palace Script MT, Zapfino, Snell Roundhand, P22 Zaner, Aphrosine, Italianno, Slight;
+    color: #000000;
+  }
+  
+  #workskin .newspaper .newspapertitle2 {
+    width: 100%;
+    padding: 0;
+    font-size: 10px;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+  }
+  
+  #workskin .newspaper .articletitle {
+    width: 100%;
+    float: left;
+    text-align: justify;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+  }
+  
+  #workskin .newspaper .articlebody {
+    width: 55%;
+    float: left;
+    font-size: 15px;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+  }
+  
+  #workskin .newspaper .articleimage {
+    width: 40%;
+    float: right;
+    padding: 0;
+    font-size: 12px;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+    background: #e6e6e6;
+    background-size: 100% 25px;
+    display: table;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 2px;
+  }
+  
+  #workskin .wikihr {
+    color: #d4d4d4;
+    width: 100%;
+    text-align: left;
+    float: left;
+  }
+  
+  #workskin .redditoverlay {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 860px;
+    position: relative;
+    overflow-y: hidden;
+  }
+  
+  #workskin .redditcontainer {
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: 32px auto;
+    padding-bottom: 32px;
+    color: #000000;
+    max-width: 740px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+  }
+  
+  #workskin .redditvotearrows {
+    float: left;
+    border-left: 4px solid transparent;
+    padding-top: 8px;
+  }
+  
+  #workskin .redditclear {
+    margin: 0;
+  }
+  
+  #workskin .redditvotes {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-top: -20px;
+    margin-bottom: 4px;
+    text-align: center;
+    vertical-align: baseline;
+  }
+  
+  #workskin .redditposterinfo {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    color: rgb(135, 138, 140);
+  }
+  
+  #workskin .reddith1 {
+    color: #1A1A1B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+  }
+  
+  #workskin .redditcategory {
+    background-color: #EDEFF1;
+    color: #1A1A1B;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: text-bottom;
+    white-space: pre;
+    padding: 0 4px;
+  }
+  
+  #workskin .redditinteract {
+    position: relative;
+  }
+  
+  #workskin .redditinteractcomment {
+    padding-left: 8px;
+  }
+  
+  #workskin .redditinteracticon {
+    padding-left: 8px;
+    padding-right: 2px;
+  }
+  
+  #workskin .redditinteracttext {
+    color: rgb(135, 138, 140);
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: 8px;
+    position: relative;
+    top: -8px;
+  }
+  
+  #workskin .redditupvoted {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #878a8c;
+    padding-top: 5px;
+  }
+  
+  #workskin .redditcommentsort {
+    border-bottom: 1px solid #edeff1;
+    border-left: 4px solid transparent;
+    display: flex;
+    margin: 16px 40px 0;
+    padding: 0 16px 4px 0;
+  }
+  
+  #workskin .redditcommentsorttext {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #7c7c7c;
+    cursor: pointer;
+  }
+  
+  #workskin .redditcommentsortbutton {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: none;
+    color: #0079d6;
+    display: flex;
+    margin-left: 4px;
+    padding: 0 4px 1px;
+    width: auto;
+  }
+  
+  #workskin .redditcommentsortsvg {
+    display: inline-block;
+    height: 20px;
+    margin-left: 0;
+    width: 20px;
+    vertical-align: middle;
+  }
+  
+  #workskin .redditusername {
+    color: #0079d3;
+    padding-right: 4px;
+  }
+  
+  #workskin .redditpostsection {
+    margin: 16px 40px 0;
+    border-left: 4px solid transparent;
+    padding-top: 8px;
+  }
+  
+  #workskin .redditsignup {
+    border-radius: 4px;
+    border: 1px solid rgb(237, 239, 241);
+    display: flex;
+    margin: 16px 30px 0;
+    padding: 12px 8px;
+  }
+  
+  #workskin .redditsignuptext {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(124, 124, 124);
+    padding-top: 7px;
+  }
+  
+  #workskin .redditsigninbutton {
+    background-color: transparent;
+    border: 1px solid rgb(0, 121, 211);
+    border-radius: 18px;
+    color: rgb(0, 121, 211);
+    font-size: 12px;
+    font-weight: 700;
+    height: 25px;
+    overflow: hidden;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 4px 9px 2px;
+    width: 65px;
+    margin-left: auto;
+    margin-right: 8px;
+    text-align: center;
+  }
+  
+  #workskin .redditsignupbutton {
+    background-color: rgb(0, 121, 211);
+    border-color: rgb(0, 121, 211);
+    border-radius: 18px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    height: 25px;
+    overflow: hidden;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 4px 9px 2px;
+    width: 65px;
+    text-align: center;
+  }
+  
+  #workskin .redditboardicon {
+    background-color: rgb(0, 121, 211);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+  }
+  
+  #workskin .redditboardname {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(28, 28, 28);
+    display: inline;
+    line-height: 20px;
+    text-decoration: none;
+    vertical-align: baseline;
+  }
+  
+  #workskin .redditboardposter {
+    position: relative;
+    bottom: 6px;
+  }
+  
+  #workskin .redditcommentsection {
+    margin-top: 16px;
+    margin-right: 40px;
+    padding-bottom: 4px;
+  }
+  
+  #workskin .reddituserinfo {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(135, 138, 140);
+  }
+  
+  #workskin .redditusericonbox {
+    border-radius: 50%;
+    border-bottom: 8px solid white;
+    margin-left: -14px;
+    float: left;
+    height: 28px;
+    width: 28px;
+  }
+  
+  #workskin .redditusericon {
+    border-radius: 50%;
+  }
+  
+  #workskin .redditcommentthread {
+    border-left: 2px solid rgb(237, 239, 241);
+    margin-top: 36px;
+    margin-left: 20px;
+  }
+  
+  #workskin .redditcommenttext {
+    padding-left: 20px;
+  }
+  
+  #workskin .redditcontinue {
+    color: #0079d3;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  #workskin .pr0 {
+    padding-right: 0;
+  }
+  
+  #workskin .c0 {
+    color: #000000;
+  }
+  
+  #workskin .phone {
+    max-width: 300px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: table;
+    margin: auto;
+  }
+  
+  #workskin .header {
+    min-width: 300px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #b2b2b2;
+    color: #000000;
+    font-weight: bold;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    margin-bottom: -2em;
+    text-align: center;
+    text-transform: capitalize;
+    display: table;
+  }
+  
+  #workskin .messagebody {
+    background-color: #FFFFFF;
+    display: table;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  
+  #workskin .text {
+    float: left;
+    color: #000000;
+    margin: 0 0 0.5em;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    background: #e5e5ea;
+    max-width: 75%;
+    clear: both;
+    position: relative;
+  }
+  
+  #workskin .text::after {
+    content: "";
+    position: absolute;
+    left: -.5em;
+    bottom: 0;
+    width: 0.5em;
+    height: 1em;
+    border-right: 0.5em solid #e5e5ea;
+    border-bottom-right-radius: 1em 0.5em;
+  }
+  
+  #workskin .greply {
+    float: right;
+    color: #FFFFFF;
+    margin: 0 0 0.5em;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    background: #35cb24;
+    max-width: 75%;
+    clear: both;
+    position: relative;
+  }
+  
+  #workskin .greply::after {
+    content: "";
+    position: absolute;
+    right: -0.5em;
+    bottom: 0;
+    width: 0.5em;
+    height: 1em;
+    border-left: 0.5em solid #35cb24;
+    border-bottom-left-radius: 1em 0.5em;
+  }
+  
+  #workskin .twt {
+    float: center;
+    max-width: 450px;
+    min-width: 300px;
+    margin: 0em auto;
+    padding: 20px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  }
+  
+  #workskin .twticonreply {
+    margin-top: 0.5em;
+  }
+  
+  #workskin .twticonreply2 {
+    margin-top: -1em;
+  }
+  
+  #workskin .twticon {
+    margin-top: -1em;
+    border-radius: 50%;
+  }
+  
+  #workskin .twticon,
+  #workskin .twticonreply,
+  #workskin .twticonreply2 {
+    border-radius: 50%;
+    width: 3em;
+    float: left;
+  }
+  
+  #workskin .twticonquote {
+    overflow: auto;
+    border-radius: 50%;
+    float: left;
+    width: 1.5em;
+    margin-top: -0.7em;
+  }
+  
+  #workskin .twt-id {
+    padding-left: 65px;
+    font-size: 1em;
+    margin-top: -15px;
+  }
+  
+  #workskin .twt-idquote {
+    padding-left: 35px;
+    font-size: 0.7em;
+    margin-top: -15px;
+  }
+  
+  #workskin .twtname {
+    font-weight: bold;
+  }
+  
+  #workskin .twtname:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #workskin .twtnamequote {
+    padding-left: 35px;
+    font-size: 0.8em;
+  }
+  
+  #workskin .twthandle {
+    color: #657786;
+    font-size: 1em;
+  }
+  
+  #workskin .twthandle:hover {
+    cursor: pointer;
+  }
+  
+  #workskin .twt-content {
+    font-size: 1.3em;
+    margin-top: -10px;
+  }
+  
+  #workskin .twt-contentquote {
+    font-size: 0.8em;
+  }
+  
+  #workskin .twt-quotebox {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 35px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+  }
+  
+  #workskin .twtimage {
+    float: center;
+    margin-top: -10px;
+    max-width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+  }
+  
+  #workskin .twt-replybox {
+    width: auto;
+  }
+  
+  #workskin .twt-replycontent {
+    padding-left: 65px;
+    margin-top: -15px;
+    font-size: 1em;
+  }
+  
+  #workskin .twthl {
+    color: #1DA1F2;
+  }
+  
+  #workskin .twthl:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #workskin .twt-smalltxt {
+    color: #657786;
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  
+  #workskin .twt-timestamp {
+    color: #657786;
+    font-size: 1em;
+    margin-top: -35px;
+  }
+  
+  #workskin .twt-smallertxt {
+    color: #657786;
+    position: absolute;
+  }
+  
+  #workskin hr.sep1 {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #c7c7c7;
+  }
+  
+  #workskin .twtDM {
+    max-width: 500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: table;
+    margin: auto;
+  }
+  
+  #workskin .name-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  
+  #workskin .name-sub {
+    padding-left: 57px;
+    font-size: 0.8em;
+  }
+  
+  #workskin .large {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  #workskin .messagebodyDark {
+    background-color: #000943;
+    display: table;
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 500px;
+  }
+  
+  #workskin .hr3 {
+    border-bottom: 1px solid #b1b1b3;
+  }
+  
+  #workskin .dm-container {
+    display: table;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: auto;
+    max-width: 95%;
+    min-width: 95%;
+  }
+  
+  #workskin .init-tw-box-left {
+    margin-top: 10px;
+    color: #000;
+    background: #e7ecf0;
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 10px;
+    border-bottom-left-radius: 0;
+    margin-bottom: 3px;
+    float: left;
+    max-width: 75%;
+    clear: both;
+    position: relative;
+  }
+  
+  #workskin .tw-time-left {
+    float: left;
+    position: relative;
+    color: #9f9fa1;
+    padding: 2px;
+    clear: both;
+  }
+  
+  #workskin .init-tw-box-right {
+    margin-top: 10px;
+    border-width: 1px;
+    color: #fff;
+    background: #1da1f3;
+    border-radius: 12px;
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    margin-bottom: 3px;
+    float: right;
+    max-width: 75%;
+    clear: both;
+    position: relative;
+  }
+  
+  #workskin .tw-time-right {
+    float: right;
+    position: relative;
+    color: #9f9fa1;
+    padding: 2px;
+    clear: both;
+  }
