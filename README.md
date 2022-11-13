@@ -1,1 +1,3 @@
 # hackholyoke22
+
+The increased prevalence of technology and the internet in our lives means that all forms of literature, art, and creativity can be expanded. Our project is a creative project which takes on storytelling through a digital media format. We take inspiration from the movie Searching(2018) to create a story out of pieces of code made to look like different digital mediums. We wanted to demonstrate that with this project, in which we mimic the styles of various social medias to tell a story through only online posts and messages. There's a lot of implied information that can be learned about people based on their usernames, the types of social media they use, and how they act online.
